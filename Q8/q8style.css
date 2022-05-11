@@ -1,0 +1,86 @@
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 98vw;
+    height: 105vh;
+}
+.main{
+    width: 98vw;
+    height: 15vh;
+    
+}
+.circle1{
+    width: 150px;
+    height: 150px; 
+    float: right;
+    background-color: rgb(0, 195, 255);
+    border-bottom-left-radius: 100%;
+}
+.boxes{
+    width: 98vw;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+}
+.part1{
+    width: 280px;
+    height: 340px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0px 5px 22px -1px rgba(0,0,0,0.54);
+    border-radius: 13px;
+    margin-left: 14%;
+    margin-top: 5%;
+    position: relative;
+}
+.part2{
+    width: 280px;
+    height: 340px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 22px -1px rgba(0,0,0,0.54);
+    border-radius: 13px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0.5px solid rgb(235, 235, 235);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 104px;
+    z-index: 2;
+}
+.prg{
+    width: 280px;
+    height: 200px;
+}
+.prg i{
+    color: rgb(38, 110, 245);
+    margin-bottom: 20px;
+
+}
+.prg p{
+    font-size: 14px;
+}
+
+.main2{
+    width: 98vw;
+    height: 10vh;
+    margin-top: 33%;
+}
+.circle2{
+    float: left;
+    width: 150px;
+    height: 150px; 
+    background-color: rgb(30, 149, 185);
+    border-top-right-radius: 100%;
+}
