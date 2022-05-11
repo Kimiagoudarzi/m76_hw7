@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+.wrapper{
+    width: 98vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.box{
+    width: 94vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+.squares{
+    width: 50vw;
+    height: 50vh;
+    margin: 20px 0px 0px 20px;
+}
+.part1{
+    display: flex;
+    height: 40vh;
+}
+.square1{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(168, 168, 168);
+    border: 3px solid rgb(0, 0, 0);
+    margin: 20px 3px 0px 20px;
+    z-index: 1;
+}
+.square2{
+    width: 67px;
+    height: 67px;
+    background-color: rgb(100, 99, 99);  
+    margin-top: 65px;
+    margin-left: 72px;
+    position: absolute;
+    z-index: 2;
+}
+.square3{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 97, 202); 
+    border: 3px solid rgb(0, 0, 0); 
+    position: absolute;
+    z-index: 2;
+    margin-top: 55px;
+    margin-left: 65px;
+}
