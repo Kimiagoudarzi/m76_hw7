@@ -32,11 +32,16 @@ function slice(array, from, to){
 }
 
 //splice
-function splice(array, index, count){
+function splice(array, index){
     let arr = [];
-
-   
-
+    let counter = 0;
+    for(let i = 0; i < array.length; i++){
+            if(i != index){
+                arr[counter] = array[i];
+                counter++;
+            }
+        }
+        return arr;
 }
 
 //some
